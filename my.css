@@ -1,0 +1,192 @@
+body{
+    margin: 60px;
+    padding:50px;
+    background-color: black;
+    color:white;
+    font-family:sans-serif;
+}
+
+
+.images{
+    height: 60px;
+    width:45px;
+}
+.image{
+    background-color: whitesmoke;
+    
+    margin: 20px;
+    padding:10px;
+    height: 25px;
+    width:28px;
+
+
+}
+
+header{
+ font-size: 50px;
+ font-family:sans-serif;
+ font-weight: bold;
+ 
+}
+.head{
+    display:flex;
+    justify-content: space-between
+    }
+  
+    .nav li{
+        display: inline-flex;
+        margin-right: 70px;
+        font-size: 20px;;
+ }
+
+ .body{
+    margin-top: 60px;
+    padding:40px;
+    display: block;
+    background-color: antiquewhite;
+    color: gray;
+    border-radius: 10px;
+ }
+ #para1,#para2{
+    display:block;
+ }
+ #para2{
+    display:none;
+ }
+
+.skill{ 
+    background-color: antiquewhite;
+    border:1px solid blue;
+    border-radius: 10px;
+    justify-content:space-between;
+    padding:10px;
+    margin-top: 30px;
+}
+.skill li{
+    display: inline-flex;
+    padding-left: 120px;
+    align-items: center;
+     border-radius: 10px;
+
+    }
+    #foot{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+    
+
+    .form{
+        border:1px solid ;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding:40px;
+        text-align: center;
+        font-size: 20px;;
+    }
+  
+
+    #name {
+      height:70px;
+      width:500px;
+      font-size: medium;
+      margin-left: 50px;
+      
+    }
+  
+    #email{
+        margin-top: 50px;
+     height:70px;
+      width:500px;
+      font-size: medium;
+      margin-left: 50px;
+    }
+    #message{
+        
+        padding:10px
+      
+            
+        }
+    #text{
+        margin-top: 50px;
+        margin-left: 10px;
+        
+    }
+
+    button{
+        height:50px;
+        width:200px;
+        border:1px solid none;
+        border-radius: 10px;
+        background-color: greenyellow;
+        padding:10px;
+        margin-left:100px;
+        margin-top: 60px; 
+    }
+    #contact{
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: bold;
+         padding: 10px;
+        margin-top: 30px;
+    }
+    @media only screen and (max-width :480px){
+        body{
+            font-size: 16pxpx;
+            margin:60px
+        }
+        .head{
+            display:inline;
+        }
+        #kavi{
+            font-size: 1.5rem;
+        }
+        .nav{
+            display: flex;
+        }
+        .nav li{
+            font-size: 0.8rem;
+            display:inline-flex;
+            
+        }
+        .body{
+            font-size: 1rem;
+        }
+        .skill{
+            height:150px;
+
+        }
+
+        .skill li{
+            padding:2px;
+        }
+      .form{
+        width:200px;
+        padding:40px;
+        font-size: 15px;
+
+           
+      }
+      #name, #email{
+        height:20px;
+        width:150px;
+        margin-top: 10px;;
+    
+      }
+      #text{
+        height:40px;
+        width:150px;
+        margin-top: 10px;
+        margin-left: 50px;
+       
+      }
+
+      button{
+        width:150px;
+        margin-left: 50px;
+      }
+
+    }
+
+    
